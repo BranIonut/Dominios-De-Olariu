@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+  background-color: white;
+  font-family: 'Palanquin', sans-serif;
+}
+.logo-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.logo-name a img{
+    width: 10rem;
+}
+.the-end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: white;
+}
+.buyinfo  {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+}
+
+.buyinfo a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul li{
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.navbar ul li a:hover{
+    color: #7B112E;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 1.5rem;
+    background-color: rgb(22, 21, 21);
+}
+
+.video-container{
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+.video-container video{
+    width: 100%;
+    opacity: 40%;
+    display: flex;
+}
+.section .info{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section h1{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+}
+.section .motto{
+    color: white;
+    font-size: 1rem;
+    font-family: 'Playfair Display', serif;
+}
+.aboutdominios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: black;
+    
+}
+.presentationinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+.aboutdominios img {
+    width: 23rem;
+    height: 23rem;
+    opacity: 60%;
+    margin-left: 2rem;
+}
+.presentationinfo h1{
+    font-family: 'Playfair Display', serif;
+    padding: 1.5rem;
+    color: white;
+}
+.presentationinfo p{
+    color: white;
+    font-family: 'Spartan', sans-serif;
+}
